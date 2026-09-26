@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VividMotion Studio - Edición de video, animaciones y motion graphics para negocios y pequeñas empresas.">
+  <title>VividMotion Studio | Edición de video y animaciones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__logo">
+        <span class="nav__logo-icon">▶</span>
+        Vivid<span class="nav__logo-accent">Motion</span>
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li class="nav__item"><a href="#productos" class="nav__link">Productos</a></li>
+          <li class="nav__item"><a href="#proceso" class="nav__link">Proceso</a></li>
+          <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+        <button class="nav__close" id="nav-close" aria-label="Cerrar menú">&times;</button>
+      </div>
+
+      <a href="#contacto" class="btn btn--nav">Cotizar</a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== INICIO / HERO ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg"></div>
+      <div class="container hero__container">
+        <div class="hero__content">
+          <span class="hero__badge">🎬 Estudio creativo audiovisual</span>
+          <h1 class="hero__title">
+            Damos vida a las ideas de tu <span class="text-gradient">negocio</span>
+          </h1>
+          <p class="hero__text">
+            En <strong>VividMotion Studio</strong> creamos edición de video, animaciones
+            y motion graphics diseñados para negocios y pequeñas empresas. Convertimos
+            tu mensaje en contenido visual que atrapa, comunica y vende.
+          </p>
+          <div class="hero__buttons">
+            <a href="#productos" class="btn">Ver lo que hacemos</a>
+            <a href="#contacto" class="btn btn--ghost">Contactar ahora</a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <span class="hero__stat-num">+120</span>
+              <span class="hero__stat-label">Proyectos entregados</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">+45</span>
+              <span class="hero__stat-label">Clientes felices</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">48h</span>
+              <span class="hero__stat-label">Entrega ágil</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__image">
+          <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&q=80"
+               alt="Edición de video y animación profesional" loading="eager">
+          <div class="hero__floating hero__floating--1">🎥 Video 4K</div>
+          <div class="hero__floating hero__floating--2">✨ Motion Graphics</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE / QUÉ HAGO ===== -->
+    <section class="about section" id="sobre">
+      <div class="container about__container">
+        <div class="about__image">
+          <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80"
+               alt="Espacio de trabajo de edición creativa" loading="lazy">
+        </div>
+        <div class="about__content">
+          <span class="section__tag">Lo que hago</span>
+          <h2 class="section__title">Contenido visual que hace crecer tu marca</h2>
+          <p class="about__text">
+            Ayudo a negocios y pequeñas empresas a destacar con contenido audiovisual
+            profesional. Desde animaciones cortas para redes sociales hasta videos
+            corporativos y presentaciones animadas, cada proyecto se hace a la medida
+            de tus objetivos y de tu marca.
+          </p>
+          <ul class="about__list">
+            <li><span class="about__check">✓</span> Estilo alineado a tu identidad de marca</li>
+            <li><span class="about__check">✓</span> Optimizado para redes sociales y web</li>
+            <li><span class="about__check">✓</span> Comunicación directa y entregas puntuales</li>
+            <li><span class="about__check">✓</span> Precios pensados para pequeñas empresas</li>
+          </ul>
+          <a href="#contacto" class="btn">Trabajemos juntos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTOS ===== -->
+    <section class="products section" id="productos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Productos y servicios</span>
+          <h2 class="section__title">Lo que hacemos por tu negocio</h2>
+          <p class="section__subtitle">
+            Soluciones audiovisuales completas para comunicar tu mensaje con impacto.
+          </p>
+        </div>
+
+        <div class="products__grid">
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=600&q=80"
+                   alt="Animaciones de 30 segundos" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__icon">⏱️</span>
+              <h3>Animaciones de 30 segundos</h3>
+              <p>Spots animados cortos y dircetos, ideales para redes sociales, anuncios y promociones que capturan la atención al instante.</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=600&q=80"
+                   alt="Edición de videos" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__icon">🎥</span>
+              <h3>Videos</h3>
+              <p>Edición profesional de videos corporativos, promocionales y de producto, con ritmo, música y color que transmiten tu mensaje.</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1626785774625-0b1c2c4eab67?auto=format&fit=crop&w=600&q=80"
+                   alt="Diseños gráficos" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__icon">🎨</span>
+              <h3>Diseños</h3>
+              <p>Piezas gráficas y branding visual: portadas, banners, miniaturas y todo lo que tu marca necesita para verse profesional.</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
+                   alt="Motion graphics" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__icon">✨</span>
+              <h3>Motion Graphics</h3>
+              <p>Gráficos en movimiento, títulos animados e infografías dinámicas que explican ideas complejas de forma clara y atractiva.</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80"
+                   alt="Presentaciones profesionales" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__icon">📊</span>
+              <h3>Presentaciones</h3>
+              <p>Presentaciones animadas y profesionales para ventas, pitch y reuniones que mantienen a tu audiencia enganchada.</p>
+            </div>
+          </article>
+
+          <article class="product-card product-card--cta">
+            <div class="product-card__body">
+              <span class="product-card__icon">🚀</span>
+              <h3>¿Tienes otra idea?</h3>
+              <p>Cuéntanos tu proyecto y creamos una solución audiovisual a la medida de tu negocio.</p>
+              <a href="#contacto" class="btn btn--sm">Pedir cotización</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESO ===== -->
+    <section class="process section" id="proceso">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Cómo trabajamos</span>
+          <h2 class="section__title">Un proceso simple y transparente</h2>
+        </div>
+        <div class="process__grid">
+          <div class="process__step">
+            <span class="process__num">01</span>
+            <h3>Brief</h3>
+            <p>Escuchamos tu idea, objetivos y estilo para entender tu marca.</p>
+          </div>
+          <div class="process__step">
+            <span class="process__num">02</span>
+            <h3>Propuesta</h3>
+            <p>Te enviamos concepto, tiempos y cotización clara sin sorpresas.</p>
+          </div>
+          <div class="process__step">
+            <span class="process__num">03</span>
+            <h3>Producción</h3>
+            <p>Creamos tu contenido con revisiones para dejarlo perfecto.</p>
+          </div>
+          <div class="process__step">
+            <span class="process__num">04</span>
+            <h3>Entrega</h3>
+            <p>Recibes tus archivos finales listos para publicar y triunfar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section class="contact section" id="contacto">
+      <div class="container contact__container">
+        <div class="contact__info">
+          <span class="section__tag section__tag--light">Contacto</span>
+          <h2 class="section__title section__title--light">Hagamos realidad tu proyecto</h2>
+          <p class="contact__text">
+            ¿Listo para llevar tu contenido al siguiente nivel? Escríbeme por
+            correo o mensaje y con gusto platicamos tu idea.
+          </p>
+
+          <div class="contact__cards">
+            <a class="contact__card" href="mailto:hcouo23@gmail.com?subject=Cotizaci%C3%B3n%20de%20proyecto&body=Hola%20VividMotion%20Studio%2C%20me%20interesa%20un%20proyecto%20de%3A">
+              <span class="contact__card-icon">✉️</span>
+              <div>
+                <strong>Correo</strong>
+                <span>hcouo23@gmail.com</span>
+              </div>
+            </a>
+            <a class="contact__card" href="tel:+529992207239">
+              <span class="contact__card-icon">📞</span>
+              <div>
+                <strong>Teléfono</strong>
+                <span>999 220 7239</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact__buttons">
+            <a class="btn btn--whatsapp" target="_blank" rel="noopener"
+               href="https://wa.me/529992207239?text=Hola%20VividMotion%20Studio%2C%20quiero%20cotizar%20un%20proyecto.">
+              💬 Enviar WhatsApp
+            </a>
+            <a class="btn btn--ghost btn--ghost-light"
+               href="mailto:hcouo23@gmail.com?subject=Cotizaci%C3%B3n%20de%20proyecto&body=Hola%20VividMotion%20Studio%2C%20me%20interesa%20un%20proyecto%20de%3A">
+              ✉️ Enviar correo
+            </a>
+          </div>
+        </div>
+
+        <form class="contact__form" id="contact-form">
+          <h3 class="contact__form-title">Cuéntame tu idea</h3>
+          <div class="form__group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+          </div>
+          <div class="form__group">
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+          </div>
+          <div class="form__group">
+            <label for="service">Servicio de interés</label>
+            <select id="service" name="service">
+              <option value="Animación de 30 segundos">Animación de 30 segundos</option>
+              <option value="Video">Video</option>
+              <option value="Diseño">Diseño</option>
+              <option value="Motion Graphics">Motion Graphics</option>
+              <option value="Presentación">Presentación</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" placeholder="Describe tu proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--full">Enviar mensaje</button>
+          <p class="form__note" id="form-note"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#inicio" class="nav__logo">
+          <span class="nav__logo-icon">▶</span>
+          Vivid<span class="nav__logo-accent">Motion</span>
+        </a>
+        <p>Edición de video, animaciones y motion graphics para negocios y pequeñas empresas.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Navegación</h4>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer__links">
+        <h4>Contacto</h4>
+        <a href="mailto:hcouo23@gmail.com">hcouo23@gmail.com</a>
+        <a href="tel:+529992207239">999 220 7239</a>
+        <a href="https://wa.me/529992207239" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> VividMotion Studio. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/529992207239?text=Hola%20VividMotion%20Studio%2C%20quiero%20cotizar%20un%20proyecto."
+     class="whatsapp-float" target="_blank" rel="noopener" aria-label="Escríbeme por WhatsApp">
+    💬
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
